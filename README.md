@@ -28,7 +28,7 @@ This is a **learning project** designed to explore and demonstrate a basic chat 
 
 ```bash
 git clone https://github.com/nam2184/chat-backend-go.git
-cd websocket-chat-backend
+cd chat-backend-go
 ```
 
 2. **Initialize Go modules**
