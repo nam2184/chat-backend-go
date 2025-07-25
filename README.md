@@ -27,7 +27,7 @@ This is a **learning project** designed to explore and demonstrate a basic chat 
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/websocket-chat-backend.git
+git clone https://github.com/nam2184/chat-backend-go.git
 cd websocket-chat-backend
 ```
 
