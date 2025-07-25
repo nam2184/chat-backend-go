@@ -8,6 +8,7 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"time"
 
 	"github.com/jmoiron/sqlx"
 	"github.com/nam2184/mymy/middleware"
@@ -59,14 +60,30 @@ func PostAuthenticated(w http.ResponseWriter, r *http.Request, db *sqlx.DB, opts
 		return
 	}
 
-	accessClaims := key.NewNormalClaims(authDetails.Username, user.ID)
+	accessCfg := key.TokenConfig{
+		Username: authDetails.Username,
+		ID:       user.ID,
+		Type:     key.AccessToken,
+		Expiry:   24 * time.Hour,
+		Issuer:   "auth-service",
+	}
+
+	accessClaims := key.NewClaims(accessCfg)
 	accessTokenString, err := manager.IssueToken(accessClaims)
 	if err != nil {
 		opts.Problem.HandleError(middleware.NewError(w, r, err))
 		return
 	}
 
-	refreshClaims := key.NewRefreshClaims(authDetails.Username, user.ID)
+	refreshCfg := key.TokenConfig{
+		Username: authDetails.Username,
+		ID:       user.ID,
+		Type:     key.RefreshToken,
+		Expiry:   72 * time.Hour,
+		Issuer:   "auth-service",
+	}
+
+	refreshClaims := key.NewClaims(refreshCfg)
 	refreshTokenString, err := manager.IssueToken(refreshClaims)
 	if err != nil {
 		opts.Problem.HandleError(middleware.NewError(w, r, err))

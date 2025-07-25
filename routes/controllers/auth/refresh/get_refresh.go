@@ -6,6 +6,7 @@ import (
 	"fmt"
 	"net/http"
 	"strconv"
+	"time"
 
 	"github.com/jmoiron/sqlx"
 	"github.com/nam2184/mymy/middleware"
@@ -48,20 +49,36 @@ func GetRefreshToken(w http.ResponseWriter, r *http.Request, db *sqlx.DB, opts *
 		return
 	}
 
-	userid, err := strconv.ParseInt(sub, 10, 64)
+	userID, err := strconv.ParseInt(sub, 10, 64)
 	if err != nil {
 		opts.Problem.HandleError(middleware.NewError(w, r, fmt.Errorf("cant assert to custom claims")))
 		return
 	}
 
-	accessClaims := key.NewNormalClaims(authDetails.Username, userid)
+	accessCfg := key.TokenConfig{
+		Username: authDetails.Username,
+		ID:       userID,
+		Type:     key.AccessToken,
+		Expiry:   24 * time.Hour,
+		Issuer:   "auth-service",
+	}
+
+	accessClaims := key.NewClaims(accessCfg)
 	accessTokenString, err := manager.IssueToken(accessClaims)
 	if err != nil {
 		opts.Problem.HandleError(middleware.NewError(w, r, err))
 		return
 	}
 
-	refreshClaims := key.NewRefreshClaims(authDetails.Username, userid)
+	refreshCfg := key.TokenConfig{
+		Username: authDetails.Username,
+		ID:       userID,
+		Type:     key.RefreshToken,
+		Expiry:   72 * time.Hour,
+		Issuer:   "auth-service",
+	}
+
+	refreshClaims := key.NewClaims(refreshCfg)
 	refreshTokenString, err := manager.IssueToken(refreshClaims)
 	if err != nil {
 		opts.Problem.HandleError(middleware.NewError(w, r, err))

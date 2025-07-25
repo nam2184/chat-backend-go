@@ -7,6 +7,14 @@ import (
 	"github.com/golang-jwt/jwt/v5"
 )
 
+type TokenConfig struct {
+	Username string
+	ID       int64
+	Type     TokenType
+	Expiry   time.Duration
+	Issuer   string
+}
+
 type CustomClaims struct {
 	Username string    `json:"username"`
 	Tpe      TokenType `json:"tpe"`
@@ -20,28 +28,15 @@ const (
 	RefreshToken TokenType = "Refresh Token"
 )
 
-func NewNormalClaims(username string, id int64) CustomClaims {
+func NewClaims(cfg TokenConfig) CustomClaims {
 	return CustomClaims{
-		Username: username,
-		Tpe:      AccessToken,
+		Username: cfg.Username,
+		Tpe:      cfg.Type,
 		RegisteredClaims: jwt.RegisteredClaims{
-			ExpiresAt: jwt.NewNumericDate(time.Now().Add(24 * time.Hour)),
+			ExpiresAt: jwt.NewNumericDate(time.Now().Add(cfg.Expiry)),
 			IssuedAt:  jwt.NewNumericDate(time.Now()),
-			Subject:   strconv.FormatInt(id, 10),
-			Issuer:    "auth-service",
-		},
-	}
-}
-
-func NewRefreshClaims(username string, id int64) CustomClaims {
-	return CustomClaims{
-		Username: username,
-		Tpe:      RefreshToken,
-		RegisteredClaims: jwt.RegisteredClaims{
-			ExpiresAt: jwt.NewNumericDate(time.Now().Add(72 * time.Hour)),
-			IssuedAt:  jwt.NewNumericDate(time.Now()),
-			Subject:   strconv.FormatInt(id, 10),
-			Issuer:    "auth-service",
+			Subject:   strconv.FormatInt(cfg.ID, 10),
+			Issuer:    cfg.Issuer,
 		},
 	}
 }

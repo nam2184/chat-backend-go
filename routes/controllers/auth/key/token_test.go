@@ -11,6 +11,7 @@ import (
 	"fmt"
 	"os"
 	"testing"
+	"time"
 
 	util "github.com/nam2184/generic-queries/utils"
 )
@@ -104,7 +105,15 @@ func TestGenerateAndVerifyToken(t *testing.T) {
 
 	// Step 3: Create claims
 	fmt.Println("[Info] Creating claims")
-	claims := NewNormalClaims(username, id)
+	accessCfg := TokenConfig{
+		Username: "john",
+		ID:       123,
+		Type:     AccessToken,
+		Expiry:   24 * time.Hour,
+		Issuer:   "auth-service",
+	}
+
+	claims := NewClaims(accessCfg)
 
 	// Step 4: Issue token with secret1
 	fmt.Println("[Info] Initializing KeyManager with secret1")
