@@ -16,7 +16,7 @@ This is a **learning project** designed to explore and demonstrate a basic chat 
 
 ## Requirements
 
-* Go 1.18+
+* Go 1.23+
 * [HashiCorp Vault](https://www.vaultproject.io/)
 * A Unix-based shell (tested on Linux/macOS)
 
@@ -72,7 +72,8 @@ vault kv put secret/jwt/private key=@private.pem
 7. **Run the server**
 
 ```bash
-go run main.go
+make build
+make run
 ```
 
 ---
