@@ -1,0 +1,321 @@
+Listening 
+[cors] 2024/12/21 13:46:49 Handler: Preflight request
+[cors] 2024/12/21 13:46:49   Preflight response headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Headers:[authorization,content-type] Access-Control-Allow-Methods:[POST] Access-Control-Allow-Origin:[*] Vary:[Origin, Access-Control-Request-Method, Access-Control-Request-Headers]]
+[cors] 2024/12/21 13:46:49 Handler: Actual request
+[cors] 2024/12/21 13:46:49   Actual response added headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Origin:[*] Vary:[Origin]]
+{"level":"info","time":"2024-12-21T13:46:49+11:00","message":"Attaching CORS headers"}
+{"level":"info","time":"2024-12-21T13:46:49+11:00","message":"Attaching control allow credentials"}
+{"level":"info","time":"2024-12-21T13:46:49+11:00","message":"No query params found"}
+{"level":"info","time":"2024-12-21T13:46:49+11:00","message":"What are you doing attaching this shit bruh"}
+{"level":"debug","time":"2024-12-21T13:46:49+11:00","message":"USER IS nam2184"}
+[cors] 2024/12/21 13:46:49 Handler: Preflight request
+[cors] 2024/12/21 13:46:49   Preflight response headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Headers:[authorization] Access-Control-Allow-Methods:[GET] Access-Control-Allow-Origin:[*] Vary:[Origin, Access-Control-Request-Method, Access-Control-Request-Headers]]
+[cors] 2024/12/21 13:46:49 Handler: Preflight request
+[cors] 2024/12/21 13:46:49 Handler: Actual request
+[cors] 2024/12/21 13:46:49   Preflight response headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Headers:[authorization] Access-Control-Allow-Methods:[GET] Access-Control-Allow-Origin:[*] Vary:[Origin, Access-Control-Request-Method, Access-Control-Request-Headers]]
+[cors] 2024/12/21 13:46:49   Actual response added headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Origin:[*] Vary:[Origin]]
+{"level":"info","time":"2024-12-21T13:46:49+11:00","message":"Attaching CORS headers"}
+{"level":"info","time":"2024-12-21T13:46:49+11:00","message":"Attaching control allow credentials"}
+{"level":"debug","time":"2024-12-21T13:46:49+11:00","message":"What are you doing there mate"}
+{"level":"info","time":"2024-12-21T13:46:49+11:00","message":"Checking token eyJhbGciOiJFUzI1NiIsImtpZCI6ImtoYW5obXl3dGZicm93aGF0Y2h1ZG9pbmciLCJ0eXAiOiJKV1QifQ.eyJ1c2VybmFtZSI6Im5hbTIxODQiLCJpc215IjpmYWxzZSwiaXNraGFuaCI6ZmFsc2UsInRwZSI6IkFjY2VzcyBUb2tlbiIsImlzcyI6ImF1dGgtc2VydmljZSIsInN1YiI6IjIiLCJleHAiOjE3MzQ4MzU2MDksImlhdCI6MTczNDc0OTIwOX0.Siz4zeFuLL82GzBJ-RmqOoBWYKHJ5ct3Qrwa1Fg1ftwOZRGXY1h9C4nP2zHneS-EVnAkYzmlIDHhJc0ggjABRA"}
+[cors] 2024/12/21 13:46:49 Handler: Preflight request
+[cors] 2024/12/21 13:46:49   Preflight response headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Headers:[authorization] Access-Control-Allow-Methods:[GET] Access-Control-Allow-Origin:[*] Vary:[Origin, Access-Control-Request-Method, Access-Control-Request-Headers]]
+{"level":"debug","time":"2024-12-21T13:46:49+11:00","message":"Username :  nam2184\n"}
+{"level":"info","time":"2024-12-21T13:46:49+11:00","message":"No query params found"}
+{"level":"info","time":"2024-12-21T13:46:49+11:00","message":"What are you doing attaching this shit bruh"}
+[cors] 2024/12/21 13:46:49 Handler: Preflight request
+[cors] 2024/12/21 13:46:49   Preflight response headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Headers:[authorization] Access-Control-Allow-Methods:[GET] Access-Control-Allow-Origin:[*] Vary:[Origin, Access-Control-Request-Method, Access-Control-Request-Headers]]
+[cors] 2024/12/21 13:46:49 Handler: Actual request
+[cors] 2024/12/21 13:46:49   Actual response added headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Origin:[*] Vary:[Origin]]
+{"level":"info","time":"2024-12-21T13:46:49+11:00","message":"Attaching CORS headers"}
+{"level":"info","time":"2024-12-21T13:46:49+11:00","message":"Attaching control allow credentials"}
+{"level":"debug","time":"2024-12-21T13:46:49+11:00","message":"What are you doing there mate"}
+{"level":"info","time":"2024-12-21T13:46:49+11:00","message":"Checking token eyJhbGciOiJFUzI1NiIsImtpZCI6ImtoYW5obXl3dGZicm93aGF0Y2h1ZG9pbmciLCJ0eXAiOiJKV1QifQ.eyJ1c2VybmFtZSI6Im5hbTIxODQiLCJpc215IjpmYWxzZSwiaXNraGFuaCI6ZmFsc2UsInRwZSI6IkFjY2VzcyBUb2tlbiIsImlzcyI6ImF1dGgtc2VydmljZSIsInN1YiI6IjIiLCJleHAiOjE3MzQ4MzU2MDksImlhdCI6MTczNDc0OTIwOX0.Siz4zeFuLL82GzBJ-RmqOoBWYKHJ5ct3Qrwa1Fg1ftwOZRGXY1h9C4nP2zHneS-EVnAkYzmlIDHhJc0ggjABRA"}
+{"level":"debug","time":"2024-12-21T13:46:49+11:00","message":"Username :  nam2184\n"}
+{"level":"info","time":"2024-12-21T13:46:49+11:00","message":"No query params found"}
+{"level":"info","time":"2024-12-21T13:46:49+11:00","message":"What are you doing attaching this shit bruh"}
+{"level":"debug","time":"2024-12-21T13:46:49+11:00","message":"No query params"}
+{"level":"debug","time":"2024-12-21T13:46:49+11:00","message":"Limit 10"}
+{"level":"debug","time":"2024-12-21T13:46:49+11:00","message":"Skip 0"}
+[cors] 2024/12/21 13:46:49 Handler: Actual request
+[cors] 2024/12/21 13:46:49   Actual response added headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Origin:[*] Vary:[Origin]]
+SELECT * FROM chats WHERE user1_id = $1 OR user2_id = $2 ORDER BY id DESC LIMIT $3 OFFSET $4
+{"level":"info","time":"2024-12-21T13:46:49+11:00","message":"Attaching CORS headers"}
+{"level":"info","time":"2024-12-21T13:46:49+11:00","message":"Attaching control allow credentials"}
+{"level":"debug","time":"2024-12-21T13:46:49+11:00","message":"What are you doing there mate"}
+{"level":"info","time":"2024-12-21T13:46:49+11:00","message":"Checking token eyJhbGciOiJFUzI1NiIsImtpZCI6ImtoYW5obXl3dGZicm93aGF0Y2h1ZG9pbmciLCJ0eXAiOiJKV1QifQ.eyJ1c2VybmFtZSI6Im5hbTIxODQiLCJpc215IjpmYWxzZSwiaXNraGFuaCI6ZmFsc2UsInRwZSI6IkFjY2VzcyBUb2tlbiIsImlzcyI6ImF1dGgtc2VydmljZSIsInN1YiI6IjIiLCJleHAiOjE3MzQ4MzU2MDksImlhdCI6MTczNDc0OTIwOX0.Siz4zeFuLL82GzBJ-RmqOoBWYKHJ5ct3Qrwa1Fg1ftwOZRGXY1h9C4nP2zHneS-EVnAkYzmlIDHhJc0ggjABRA"}
+{"level":"debug","time":"2024-12-21T13:46:49+11:00","message":"Username :  nam2184\n"}
+{"level":"info","time":"2024-12-21T13:46:49+11:00","message":"No query params found"}
+{"level":"info","time":"2024-12-21T13:46:49+11:00","message":"What are you doing attaching this shit bruh"}
+[cors] 2024/12/21 13:46:49 Handler: Actual request
+[cors] 2024/12/21 13:46:49   Actual response added headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Origin:[*] Vary:[Origin]]
+{"level":"info","time":"2024-12-21T13:46:49+11:00","message":"Attaching CORS headers"}
+{"level":"info","time":"2024-12-21T13:46:49+11:00","message":"Attaching control allow credentials"}
+{"level":"debug","time":"2024-12-21T13:46:49+11:00","message":"What are you doing there mate"}
+{"level":"info","time":"2024-12-21T13:46:49+11:00","message":"Checking token eyJhbGciOiJFUzI1NiIsImtpZCI6ImtoYW5obXl3dGZicm93aGF0Y2h1ZG9pbmciLCJ0eXAiOiJKV1QifQ.eyJ1c2VybmFtZSI6Im5hbTIxODQiLCJpc215IjpmYWxzZSwiaXNraGFuaCI6ZmFsc2UsInRwZSI6IkFjY2VzcyBUb2tlbiIsImlzcyI6ImF1dGgtc2VydmljZSIsInN1YiI6IjIiLCJleHAiOjE3MzQ4MzU2MDksImlhdCI6MTczNDc0OTIwOX0.Siz4zeFuLL82GzBJ-RmqOoBWYKHJ5ct3Qrwa1Fg1ftwOZRGXY1h9C4nP2zHneS-EVnAkYzmlIDHhJc0ggjABRA"}
+{"level":"debug","time":"2024-12-21T13:46:49+11:00","message":"Username :  nam2184\n"}
+{"level":"info","time":"2024-12-21T13:46:49+11:00","message":"No query params found"}
+{"level":"info","time":"2024-12-21T13:46:49+11:00","message":"What are you doing attaching this shit bruh"}
+{"level":"debug","time":"2024-12-21T13:46:49+11:00","message":"No query params"}
+{"level":"debug","time":"2024-12-21T13:46:49+11:00","message":"Limit 10"}
+{"level":"debug","time":"2024-12-21T13:46:49+11:00","message":"Skip 0"}
+SELECT * FROM chats WHERE user1_id = $1 OR user2_id = $2 ORDER BY id DESC LIMIT $3 OFFSET $4
+[cors] 2024/12/21 13:46:50 Handler: Preflight request
+[cors] 2024/12/21 13:46:50   Preflight response headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Headers:[authorization] Access-Control-Allow-Methods:[GET] Access-Control-Allow-Origin:[*] Vary:[Origin, Access-Control-Request-Method, Access-Control-Request-Headers]]
+[cors] 2024/12/21 13:46:50 Handler: Actual request
+[cors] 2024/12/21 13:46:50   Actual response added headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Origin:[*] Vary:[Origin]]
+{"level":"info","time":"2024-12-21T13:46:50+11:00","message":"Attaching CORS headers"}
+{"level":"info","time":"2024-12-21T13:46:50+11:00","message":"Attaching control allow credentials"}
+{"level":"debug","time":"2024-12-21T13:46:50+11:00","message":"What are you doing there mate"}
+{"level":"info","time":"2024-12-21T13:46:50+11:00","message":"Checking token eyJhbGciOiJFUzI1NiIsImtpZCI6ImtoYW5obXl3dGZicm93aGF0Y2h1ZG9pbmciLCJ0eXAiOiJKV1QifQ.eyJ1c2VybmFtZSI6Im5hbTIxODQiLCJpc215IjpmYWxzZSwiaXNraGFuaCI6ZmFsc2UsInRwZSI6IkFjY2VzcyBUb2tlbiIsImlzcyI6ImF1dGgtc2VydmljZSIsInN1YiI6IjIiLCJleHAiOjE3MzQ4MzU2MDksImlhdCI6MTczNDc0OTIwOX0.Siz4zeFuLL82GzBJ-RmqOoBWYKHJ5ct3Qrwa1Fg1ftwOZRGXY1h9C4nP2zHneS-EVnAkYzmlIDHhJc0ggjABRA"}
+{"level":"debug","time":"2024-12-21T13:46:50+11:00","message":"Username :  nam2184\n"}
+{"level":"info","time":"2024-12-21T13:46:50+11:00","message":"What are you doing attaching this shit bruh"}
+{"level":"debug","time":"2024-12-21T13:46:50+11:00","message":"Limit 10"}
+{"level":"debug","time":"2024-12-21T13:46:50+11:00","message":"Skip 0"}
+SELECT * FROM messages WHERE chat_id = $1 ORDER BY timestamp DESC LIMIT $2 OFFSET $3
+[cors] 2024/12/21 13:46:50 Handler: Actual request
+[cors] 2024/12/21 13:46:50   Actual response added headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Origin:[*] Vary:[Origin]]
+{"level":"info","time":"2024-12-21T13:46:50+11:00","message":"Attaching CORS headers"}
+{"level":"info","time":"2024-12-21T13:46:50+11:00","message":"Attaching control allow credentials"}
+{"level":"debug","time":"2024-12-21T13:46:50+11:00","message":"What are you doing there mate"}
+{"level":"info","time":"2024-12-21T13:46:50+11:00","message":"Checking token eyJhbGciOiJFUzI1NiIsImtpZCI6ImtoYW5obXl3dGZicm93aGF0Y2h1ZG9pbmciLCJ0eXAiOiJKV1QifQ.eyJ1c2VybmFtZSI6Im5hbTIxODQiLCJpc215IjpmYWxzZSwiaXNraGFuaCI6ZmFsc2UsInRwZSI6IkFjY2VzcyBUb2tlbiIsImlzcyI6ImF1dGgtc2VydmljZSIsInN1YiI6IjIiLCJleHAiOjE3MzQ4MzU2MDksImlhdCI6MTczNDc0OTIwOX0.Siz4zeFuLL82GzBJ-RmqOoBWYKHJ5ct3Qrwa1Fg1ftwOZRGXY1h9C4nP2zHneS-EVnAkYzmlIDHhJc0ggjABRA"}
+{"level":"debug","time":"2024-12-21T13:46:50+11:00","message":"Username :  nam2184\n"}
+{"level":"info","time":"2024-12-21T13:46:50+11:00","message":"What are you doing attaching this shit bruh"}
+{"level":"debug","time":"2024-12-21T13:46:50+11:00","message":"Limit 10"}
+{"level":"debug","time":"2024-12-21T13:46:50+11:00","message":"Skip 0"}
+SELECT * FROM messages WHERE chat_id = $1 ORDER BY timestamp DESC LIMIT $2 OFFSET $3
+[cors] 2024/12/21 13:47:07 Handler: Preflight request
+[cors] 2024/12/21 13:47:07 Handler: Preflight request
+[cors] 2024/12/21 13:47:07 Handler: Preflight request
+[cors] 2024/12/21 13:47:07   Preflight response headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Headers:[authorization] Access-Control-Allow-Methods:[GET] Access-Control-Allow-Origin:[*] Vary:[Origin, Access-Control-Request-Method, Access-Control-Request-Headers]]
+[cors] 2024/12/21 13:47:07   Preflight response headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Headers:[authorization] Access-Control-Allow-Methods:[GET] Access-Control-Allow-Origin:[*] Vary:[Origin, Access-Control-Request-Method, Access-Control-Request-Headers]]
+[cors] 2024/12/21 13:47:07   Preflight response headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Headers:[authorization] Access-Control-Allow-Methods:[GET] Access-Control-Allow-Origin:[*] Vary:[Origin, Access-Control-Request-Method, Access-Control-Request-Headers]]
+[cors] 2024/12/21 13:47:07 Handler: Preflight request
+[cors] 2024/12/21 13:47:07   Preflight response headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Headers:[authorization] Access-Control-Allow-Methods:[GET] Access-Control-Allow-Origin:[*] Vary:[Origin, Access-Control-Request-Method, Access-Control-Request-Headers]]
+[cors] 2024/12/21 13:47:07 Handler: Actual request
+[cors] 2024/12/21 13:47:07   Actual response added headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Origin:[*] Vary:[Origin]]
+{"level":"info","time":"2024-12-21T13:47:07+11:00","message":"Attaching CORS headers"}
+{"level":"info","time":"2024-12-21T13:47:07+11:00","message":"Attaching control allow credentials"}
+{"level":"debug","time":"2024-12-21T13:47:07+11:00","message":"What are you doing there mate"}
+{"level":"info","time":"2024-12-21T13:47:07+11:00","message":"Checking token eyJhbGciOiJFUzI1NiIsImtpZCI6ImtoYW5obXl3dGZicm93aGF0Y2h1ZG9pbmciLCJ0eXAiOiJKV1QifQ.eyJ1c2VybmFtZSI6Im15bmdvdGF1IiwiaXNteSI6ZmFsc2UsImlza2hhbmgiOmZhbHNlLCJ0cGUiOiJBY2Nlc3MgVG9rZW4iLCJpc3MiOiJhdXRoLXNlcnZpY2UiLCJzdWIiOiIxIiwiZXhwIjoxNzM0ODM0Mjg5LCJpYXQiOjE3MzQ3NDc4ODl9.Q-i6jvt5cTxOT4Kma5gzbY0DrbZNqQFNKSL5lpAQAyVC1Dq_MhJX0mfVCkiKJPPgjlBp1kGoEI5NcozFV9cgxg"}
+{"level":"debug","time":"2024-12-21T13:47:07+11:00","message":"Username :  myngotau\n"}
+{"level":"info","time":"2024-12-21T13:47:07+11:00","message":"No query params found"}
+{"level":"info","time":"2024-12-21T13:47:07+11:00","message":"What are you doing attaching this shit bruh"}
+{"level":"debug","time":"2024-12-21T13:47:07+11:00","message":"No query params"}
+{"level":"debug","time":"2024-12-21T13:47:07+11:00","message":"Limit 10"}
+{"level":"debug","time":"2024-12-21T13:47:07+11:00","message":"Skip 0"}
+SELECT * FROM chats WHERE user1_id = $1 OR user2_id = $2 ORDER BY id DESC LIMIT $3 OFFSET $4
+[cors] 2024/12/21 13:47:07 Handler: Actual request
+[cors] 2024/12/21 13:47:07   Actual response added headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Origin:[*] Vary:[Origin]]
+{"level":"info","time":"2024-12-21T13:47:07+11:00","message":"Attaching CORS headers"}
+{"level":"info","time":"2024-12-21T13:47:07+11:00","message":"Attaching control allow credentials"}
+{"level":"debug","time":"2024-12-21T13:47:07+11:00","message":"What are you doing there mate"}
+{"level":"info","time":"2024-12-21T13:47:07+11:00","message":"Checking token eyJhbGciOiJFUzI1NiIsImtpZCI6ImtoYW5obXl3dGZicm93aGF0Y2h1ZG9pbmciLCJ0eXAiOiJKV1QifQ.eyJ1c2VybmFtZSI6Im15bmdvdGF1IiwiaXNteSI6ZmFsc2UsImlza2hhbmgiOmZhbHNlLCJ0cGUiOiJBY2Nlc3MgVG9rZW4iLCJpc3MiOiJhdXRoLXNlcnZpY2UiLCJzdWIiOiIxIiwiZXhwIjoxNzM0ODM0Mjg5LCJpYXQiOjE3MzQ3NDc4ODl9.Q-i6jvt5cTxOT4Kma5gzbY0DrbZNqQFNKSL5lpAQAyVC1Dq_MhJX0mfVCkiKJPPgjlBp1kGoEI5NcozFV9cgxg"}
+{"level":"debug","time":"2024-12-21T13:47:07+11:00","message":"Username :  myngotau\n"}
+{"level":"info","time":"2024-12-21T13:47:07+11:00","message":"No query params found"}
+{"level":"info","time":"2024-12-21T13:47:07+11:00","message":"What are you doing attaching this shit bruh"}
+[cors] 2024/12/21 13:47:07 Handler: Actual request
+[cors] 2024/12/21 13:47:07   Actual response added headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Origin:[*] Vary:[Origin]]
+{"level":"info","time":"2024-12-21T13:47:07+11:00","message":"Attaching CORS headers"}
+{"level":"info","time":"2024-12-21T13:47:07+11:00","message":"Attaching control allow credentials"}
+{"level":"debug","time":"2024-12-21T13:47:07+11:00","message":"What are you doing there mate"}
+{"level":"info","time":"2024-12-21T13:47:07+11:00","message":"Checking token eyJhbGciOiJFUzI1NiIsImtpZCI6ImtoYW5obXl3dGZicm93aGF0Y2h1ZG9pbmciLCJ0eXAiOiJKV1QifQ.eyJ1c2VybmFtZSI6Im15bmdvdGF1IiwiaXNteSI6ZmFsc2UsImlza2hhbmgiOmZhbHNlLCJ0cGUiOiJBY2Nlc3MgVG9rZW4iLCJpc3MiOiJhdXRoLXNlcnZpY2UiLCJzdWIiOiIxIiwiZXhwIjoxNzM0ODM0Mjg5LCJpYXQiOjE3MzQ3NDc4ODl9.Q-i6jvt5cTxOT4Kma5gzbY0DrbZNqQFNKSL5lpAQAyVC1Dq_MhJX0mfVCkiKJPPgjlBp1kGoEI5NcozFV9cgxg"}
+{"level":"debug","time":"2024-12-21T13:47:07+11:00","message":"Username :  myngotau\n"}
+{"level":"info","time":"2024-12-21T13:47:07+11:00","message":"No query params found"}
+{"level":"info","time":"2024-12-21T13:47:07+11:00","message":"What are you doing attaching this shit bruh"}
+{"level":"debug","time":"2024-12-21T13:47:07+11:00","message":"No query params"}
+{"level":"debug","time":"2024-12-21T13:47:07+11:00","message":"Limit 10"}
+{"level":"debug","time":"2024-12-21T13:47:07+11:00","message":"Skip 0"}
+SELECT * FROM chats WHERE user1_id = $1 OR user2_id = $2 ORDER BY id DESC LIMIT $3 OFFSET $4
+[cors] 2024/12/21 13:47:07 Handler: Actual request
+[cors] 2024/12/21 13:47:07   Actual response added headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Origin:[*] Vary:[Origin]]
+{"level":"info","time":"2024-12-21T13:47:07+11:00","message":"Attaching CORS headers"}
+{"level":"info","time":"2024-12-21T13:47:07+11:00","message":"Attaching control allow credentials"}
+{"level":"debug","time":"2024-12-21T13:47:07+11:00","message":"What are you doing there mate"}
+{"level":"info","time":"2024-12-21T13:47:07+11:00","message":"Checking token eyJhbGciOiJFUzI1NiIsImtpZCI6ImtoYW5obXl3dGZicm93aGF0Y2h1ZG9pbmciLCJ0eXAiOiJKV1QifQ.eyJ1c2VybmFtZSI6Im15bmdvdGF1IiwiaXNteSI6ZmFsc2UsImlza2hhbmgiOmZhbHNlLCJ0cGUiOiJBY2Nlc3MgVG9rZW4iLCJpc3MiOiJhdXRoLXNlcnZpY2UiLCJzdWIiOiIxIiwiZXhwIjoxNzM0ODM0Mjg5LCJpYXQiOjE3MzQ3NDc4ODl9.Q-i6jvt5cTxOT4Kma5gzbY0DrbZNqQFNKSL5lpAQAyVC1Dq_MhJX0mfVCkiKJPPgjlBp1kGoEI5NcozFV9cgxg"}
+{"level":"debug","time":"2024-12-21T13:47:07+11:00","message":"Username :  myngotau\n"}
+{"level":"info","time":"2024-12-21T13:47:07+11:00","message":"No query params found"}
+{"level":"info","time":"2024-12-21T13:47:07+11:00","message":"What are you doing attaching this shit bruh"}
+[cors] 2024/12/21 13:47:08 Handler: Preflight request
+[cors] 2024/12/21 13:47:08   Preflight response headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Headers:[authorization] Access-Control-Allow-Methods:[GET] Access-Control-Allow-Origin:[*] Vary:[Origin, Access-Control-Request-Method, Access-Control-Request-Headers]]
+[cors] 2024/12/21 13:47:08 Handler: Actual request
+[cors] 2024/12/21 13:47:08   Actual response added headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Origin:[*] Vary:[Origin]]
+{"level":"info","time":"2024-12-21T13:47:08+11:00","message":"Attaching CORS headers"}
+{"level":"info","time":"2024-12-21T13:47:08+11:00","message":"Attaching control allow credentials"}
+{"level":"debug","time":"2024-12-21T13:47:08+11:00","message":"What are you doing there mate"}
+{"level":"info","time":"2024-12-21T13:47:08+11:00","message":"Checking token eyJhbGciOiJFUzI1NiIsImtpZCI6ImtoYW5obXl3dGZicm93aGF0Y2h1ZG9pbmciLCJ0eXAiOiJKV1QifQ.eyJ1c2VybmFtZSI6Im15bmdvdGF1IiwiaXNteSI6ZmFsc2UsImlza2hhbmgiOmZhbHNlLCJ0cGUiOiJBY2Nlc3MgVG9rZW4iLCJpc3MiOiJhdXRoLXNlcnZpY2UiLCJzdWIiOiIxIiwiZXhwIjoxNzM0ODM0Mjg5LCJpYXQiOjE3MzQ3NDc4ODl9.Q-i6jvt5cTxOT4Kma5gzbY0DrbZNqQFNKSL5lpAQAyVC1Dq_MhJX0mfVCkiKJPPgjlBp1kGoEI5NcozFV9cgxg"}
+{"level":"debug","time":"2024-12-21T13:47:08+11:00","message":"Username :  myngotau\n"}
+{"level":"info","time":"2024-12-21T13:47:08+11:00","message":"What are you doing attaching this shit bruh"}
+{"level":"debug","time":"2024-12-21T13:47:08+11:00","message":"Limit 10"}
+{"level":"debug","time":"2024-12-21T13:47:08+11:00","message":"Skip 0"}
+SELECT * FROM messages WHERE chat_id = $1 ORDER BY timestamp DESC LIMIT $2 OFFSET $3
+[cors] 2024/12/21 13:47:08 Handler: Actual request
+[cors] 2024/12/21 13:47:08   Actual response added headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Origin:[*] Vary:[Origin]]
+{"level":"info","time":"2024-12-21T13:47:08+11:00","message":"Attaching CORS headers"}
+{"level":"info","time":"2024-12-21T13:47:08+11:00","message":"Attaching control allow credentials"}
+{"level":"debug","time":"2024-12-21T13:47:08+11:00","message":"What are you doing there mate"}
+{"level":"info","time":"2024-12-21T13:47:08+11:00","message":"Checking token eyJhbGciOiJFUzI1NiIsImtpZCI6ImtoYW5obXl3dGZicm93aGF0Y2h1ZG9pbmciLCJ0eXAiOiJKV1QifQ.eyJ1c2VybmFtZSI6Im15bmdvdGF1IiwiaXNteSI6ZmFsc2UsImlza2hhbmgiOmZhbHNlLCJ0cGUiOiJBY2Nlc3MgVG9rZW4iLCJpc3MiOiJhdXRoLXNlcnZpY2UiLCJzdWIiOiIxIiwiZXhwIjoxNzM0ODM0Mjg5LCJpYXQiOjE3MzQ3NDc4ODl9.Q-i6jvt5cTxOT4Kma5gzbY0DrbZNqQFNKSL5lpAQAyVC1Dq_MhJX0mfVCkiKJPPgjlBp1kGoEI5NcozFV9cgxg"}
+{"level":"debug","time":"2024-12-21T13:47:08+11:00","message":"Username :  myngotau\n"}
+{"level":"info","time":"2024-12-21T13:47:08+11:00","message":"What are you doing attaching this shit bruh"}
+{"level":"debug","time":"2024-12-21T13:47:08+11:00","message":"Limit 10"}
+{"level":"debug","time":"2024-12-21T13:47:08+11:00","message":"Skip 0"}
+SELECT * FROM messages WHERE chat_id = $1 ORDER BY timestamp DESC LIMIT $2 OFFSET $3
+[cors] 2024/12/21 13:47:17 Handler: Preflight request
+[cors] 2024/12/21 13:47:17 Handler: Preflight request
+[cors] 2024/12/21 13:47:17 Handler: Preflight request
+[cors] 2024/12/21 13:47:17   Preflight response headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Headers:[authorization] Access-Control-Allow-Methods:[GET] Access-Control-Allow-Origin:[*] Vary:[Origin, Access-Control-Request-Method, Access-Control-Request-Headers]]
+[cors] 2024/12/21 13:47:17   Preflight response headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Headers:[authorization] Access-Control-Allow-Methods:[GET] Access-Control-Allow-Origin:[*] Vary:[Origin, Access-Control-Request-Method, Access-Control-Request-Headers]]
+[cors] 2024/12/21 13:47:17 Handler: Preflight request
+[cors] 2024/12/21 13:47:17   Preflight response headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Headers:[authorization] Access-Control-Allow-Methods:[GET] Access-Control-Allow-Origin:[*] Vary:[Origin, Access-Control-Request-Method, Access-Control-Request-Headers]]
+[cors] 2024/12/21 13:47:17   Preflight response headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Headers:[authorization] Access-Control-Allow-Methods:[GET] Access-Control-Allow-Origin:[*] Vary:[Origin, Access-Control-Request-Method, Access-Control-Request-Headers]]
+[cors] 2024/12/21 13:47:17 Handler: Actual request
+[cors] 2024/12/21 13:47:17   Actual response added headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Origin:[*] Vary:[Origin]]
+{"level":"info","time":"2024-12-21T13:47:17+11:00","message":"Attaching CORS headers"}
+{"level":"info","time":"2024-12-21T13:47:17+11:00","message":"Attaching control allow credentials"}
+{"level":"debug","time":"2024-12-21T13:47:17+11:00","message":"What are you doing there mate"}
+[cors] 2024/12/21 13:47:17 Handler: Actual request
+[cors] 2024/12/21 13:47:17   Actual response added headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Origin:[*] Vary:[Origin]]
+{"level":"info","time":"2024-12-21T13:47:17+11:00","message":"Attaching CORS headers"}
+{"level":"info","time":"2024-12-21T13:47:17+11:00","message":"Attaching control allow credentials"}
+{"level":"debug","time":"2024-12-21T13:47:17+11:00","message":"What are you doing there mate"}
+{"level":"info","time":"2024-12-21T13:47:17+11:00","message":"Checking token eyJhbGciOiJFUzI1NiIsImtpZCI6ImtoYW5obXl3dGZicm93aGF0Y2h1ZG9pbmciLCJ0eXAiOiJKV1QifQ.eyJ1c2VybmFtZSI6Im5hbTIxODQiLCJpc215IjpmYWxzZSwiaXNraGFuaCI6ZmFsc2UsInRwZSI6IkFjY2VzcyBUb2tlbiIsImlzcyI6ImF1dGgtc2VydmljZSIsInN1YiI6IjIiLCJleHAiOjE3MzQ4MzU2MDksImlhdCI6MTczNDc0OTIwOX0.Siz4zeFuLL82GzBJ-RmqOoBWYKHJ5ct3Qrwa1Fg1ftwOZRGXY1h9C4nP2zHneS-EVnAkYzmlIDHhJc0ggjABRA"}
+{"level":"info","time":"2024-12-21T13:47:17+11:00","message":"Checking token eyJhbGciOiJFUzI1NiIsImtpZCI6ImtoYW5obXl3dGZicm93aGF0Y2h1ZG9pbmciLCJ0eXAiOiJKV1QifQ.eyJ1c2VybmFtZSI6Im5hbTIxODQiLCJpc215IjpmYWxzZSwiaXNraGFuaCI6ZmFsc2UsInRwZSI6IkFjY2VzcyBUb2tlbiIsImlzcyI6ImF1dGgtc2VydmljZSIsInN1YiI6IjIiLCJleHAiOjE3MzQ4MzU2MDksImlhdCI6MTczNDc0OTIwOX0.Siz4zeFuLL82GzBJ-RmqOoBWYKHJ5ct3Qrwa1Fg1ftwOZRGXY1h9C4nP2zHneS-EVnAkYzmlIDHhJc0ggjABRA"}
+{"level":"debug","time":"2024-12-21T13:47:17+11:00","message":"Username :  nam2184\n"}
+{"level":"info","time":"2024-12-21T13:47:17+11:00","message":"No query params found"}
+{"level":"info","time":"2024-12-21T13:47:17+11:00","message":"What are you doing attaching this shit bruh"}
+{"level":"debug","time":"2024-12-21T13:47:17+11:00","message":"No query params"}
+{"level":"debug","time":"2024-12-21T13:47:17+11:00","message":"Limit 10"}
+{"level":"debug","time":"2024-12-21T13:47:17+11:00","message":"Skip 0"}
+{"level":"debug","time":"2024-12-21T13:47:17+11:00","message":"Username :  nam2184\n"}
+{"level":"info","time":"2024-12-21T13:47:17+11:00","message":"No query params found"}
+{"level":"info","time":"2024-12-21T13:47:17+11:00","message":"What are you doing attaching this shit bruh"}
+SELECT * FROM chats WHERE user1_id = $1 OR user2_id = $2 ORDER BY id DESC LIMIT $3 OFFSET $4
+[cors] 2024/12/21 13:47:17 Handler: Actual request
+[cors] 2024/12/21 13:47:17   Actual response added headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Origin:[*] Vary:[Origin]]
+{"level":"info","time":"2024-12-21T13:47:17+11:00","message":"Attaching CORS headers"}
+{"level":"info","time":"2024-12-21T13:47:17+11:00","message":"Attaching control allow credentials"}
+{"level":"debug","time":"2024-12-21T13:47:17+11:00","message":"What are you doing there mate"}
+{"level":"info","time":"2024-12-21T13:47:17+11:00","message":"Checking token eyJhbGciOiJFUzI1NiIsImtpZCI6ImtoYW5obXl3dGZicm93aGF0Y2h1ZG9pbmciLCJ0eXAiOiJKV1QifQ.eyJ1c2VybmFtZSI6Im5hbTIxODQiLCJpc215IjpmYWxzZSwiaXNraGFuaCI6ZmFsc2UsInRwZSI6IkFjY2VzcyBUb2tlbiIsImlzcyI6ImF1dGgtc2VydmljZSIsInN1YiI6IjIiLCJleHAiOjE3MzQ4MzU2MDksImlhdCI6MTczNDc0OTIwOX0.Siz4zeFuLL82GzBJ-RmqOoBWYKHJ5ct3Qrwa1Fg1ftwOZRGXY1h9C4nP2zHneS-EVnAkYzmlIDHhJc0ggjABRA"}
+{"level":"debug","time":"2024-12-21T13:47:17+11:00","message":"Username :  nam2184\n"}
+{"level":"info","time":"2024-12-21T13:47:17+11:00","message":"No query params found"}
+{"level":"info","time":"2024-12-21T13:47:17+11:00","message":"What are you doing attaching this shit bruh"}
+[cors] 2024/12/21 13:47:17 Handler: Actual request
+[cors] 2024/12/21 13:47:17   Actual response added headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Origin:[*] Vary:[Origin]]
+{"level":"info","time":"2024-12-21T13:47:17+11:00","message":"Attaching CORS headers"}
+{"level":"info","time":"2024-12-21T13:47:17+11:00","message":"Attaching control allow credentials"}
+{"level":"debug","time":"2024-12-21T13:47:17+11:00","message":"What are you doing there mate"}
+{"level":"info","time":"2024-12-21T13:47:17+11:00","message":"Checking token eyJhbGciOiJFUzI1NiIsImtpZCI6ImtoYW5obXl3dGZicm93aGF0Y2h1ZG9pbmciLCJ0eXAiOiJKV1QifQ.eyJ1c2VybmFtZSI6Im5hbTIxODQiLCJpc215IjpmYWxzZSwiaXNraGFuaCI6ZmFsc2UsInRwZSI6IkFjY2VzcyBUb2tlbiIsImlzcyI6ImF1dGgtc2VydmljZSIsInN1YiI6IjIiLCJleHAiOjE3MzQ4MzU2MDksImlhdCI6MTczNDc0OTIwOX0.Siz4zeFuLL82GzBJ-RmqOoBWYKHJ5ct3Qrwa1Fg1ftwOZRGXY1h9C4nP2zHneS-EVnAkYzmlIDHhJc0ggjABRA"}
+{"level":"debug","time":"2024-12-21T13:47:17+11:00","message":"Username :  nam2184\n"}
+{"level":"info","time":"2024-12-21T13:47:17+11:00","message":"No query params found"}
+{"level":"info","time":"2024-12-21T13:47:17+11:00","message":"What are you doing attaching this shit bruh"}
+{"level":"debug","time":"2024-12-21T13:47:17+11:00","message":"No query params"}
+{"level":"debug","time":"2024-12-21T13:47:17+11:00","message":"Limit 10"}
+{"level":"debug","time":"2024-12-21T13:47:17+11:00","message":"Skip 0"}
+SELECT * FROM chats WHERE user1_id = $1 OR user2_id = $2 ORDER BY id DESC LIMIT $3 OFFSET $4
+[cors] 2024/12/21 13:47:17 Handler: Preflight request
+[cors] 2024/12/21 13:47:17   Preflight response headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Headers:[authorization] Access-Control-Allow-Methods:[GET] Access-Control-Allow-Origin:[*] Vary:[Origin, Access-Control-Request-Method, Access-Control-Request-Headers]]
+[cors] 2024/12/21 13:47:17 Handler: Actual request
+[cors] 2024/12/21 13:47:17   Actual response added headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Origin:[*] Vary:[Origin]]
+{"level":"info","time":"2024-12-21T13:47:17+11:00","message":"Attaching CORS headers"}
+{"level":"info","time":"2024-12-21T13:47:17+11:00","message":"Attaching control allow credentials"}
+{"level":"debug","time":"2024-12-21T13:47:17+11:00","message":"What are you doing there mate"}
+{"level":"info","time":"2024-12-21T13:47:17+11:00","message":"Checking token eyJhbGciOiJFUzI1NiIsImtpZCI6ImtoYW5obXl3dGZicm93aGF0Y2h1ZG9pbmciLCJ0eXAiOiJKV1QifQ.eyJ1c2VybmFtZSI6Im5hbTIxODQiLCJpc215IjpmYWxzZSwiaXNraGFuaCI6ZmFsc2UsInRwZSI6IkFjY2VzcyBUb2tlbiIsImlzcyI6ImF1dGgtc2VydmljZSIsInN1YiI6IjIiLCJleHAiOjE3MzQ4MzU2MDksImlhdCI6MTczNDc0OTIwOX0.Siz4zeFuLL82GzBJ-RmqOoBWYKHJ5ct3Qrwa1Fg1ftwOZRGXY1h9C4nP2zHneS-EVnAkYzmlIDHhJc0ggjABRA"}
+{"level":"debug","time":"2024-12-21T13:47:17+11:00","message":"Username :  nam2184\n"}
+{"level":"info","time":"2024-12-21T13:47:17+11:00","message":"What are you doing attaching this shit bruh"}
+{"level":"debug","time":"2024-12-21T13:47:17+11:00","message":"Limit 10"}
+{"level":"debug","time":"2024-12-21T13:47:17+11:00","message":"Skip 0"}
+SELECT * FROM messages WHERE chat_id = $1 ORDER BY timestamp DESC LIMIT $2 OFFSET $3
+[cors] 2024/12/21 13:47:18 Handler: Actual request
+[cors] 2024/12/21 13:47:18   Actual response added headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Origin:[*] Vary:[Origin]]
+{"level":"info","time":"2024-12-21T13:47:18+11:00","message":"Attaching CORS headers"}
+{"level":"info","time":"2024-12-21T13:47:18+11:00","message":"Attaching control allow credentials"}
+{"level":"debug","time":"2024-12-21T13:47:18+11:00","message":"What are you doing there mate"}
+{"level":"info","time":"2024-12-21T13:47:18+11:00","message":"Checking token eyJhbGciOiJFUzI1NiIsImtpZCI6ImtoYW5obXl3dGZicm93aGF0Y2h1ZG9pbmciLCJ0eXAiOiJKV1QifQ.eyJ1c2VybmFtZSI6Im5hbTIxODQiLCJpc215IjpmYWxzZSwiaXNraGFuaCI6ZmFsc2UsInRwZSI6IkFjY2VzcyBUb2tlbiIsImlzcyI6ImF1dGgtc2VydmljZSIsInN1YiI6IjIiLCJleHAiOjE3MzQ4MzU2MDksImlhdCI6MTczNDc0OTIwOX0.Siz4zeFuLL82GzBJ-RmqOoBWYKHJ5ct3Qrwa1Fg1ftwOZRGXY1h9C4nP2zHneS-EVnAkYzmlIDHhJc0ggjABRA"}
+{"level":"debug","time":"2024-12-21T13:47:18+11:00","message":"Username :  nam2184\n"}
+{"level":"info","time":"2024-12-21T13:47:18+11:00","message":"What are you doing attaching this shit bruh"}
+{"level":"debug","time":"2024-12-21T13:47:18+11:00","message":"Limit 10"}
+{"level":"debug","time":"2024-12-21T13:47:18+11:00","message":"Skip 0"}
+SELECT * FROM messages WHERE chat_id = $1 ORDER BY timestamp DESC LIMIT $2 OFFSET $3
+[cors] 2024/12/21 13:47:18 Handler: Actual request
+[cors] 2024/12/21 13:47:18   Actual response added headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Origin:[*] Vary:[Origin]]
+{"level":"info","time":"2024-12-21T13:47:18+11:00","message":"Attaching CORS headers"}
+{"level":"info","time":"2024-12-21T13:47:18+11:00","message":"Attaching control allow credentials"}
+{"level":"debug","time":"2024-12-21T13:47:18+11:00","message":"What are you doing there mate"}
+{"level":"info","time":"2024-12-21T13:47:18+11:00","message":"Checking token eyJhbGciOiJFUzI1NiIsImtpZCI6ImtoYW5obXl3dGZicm93aGF0Y2h1ZG9pbmciLCJ0eXAiOiJKV1QifQ.eyJ1c2VybmFtZSI6Im5hbTIxODQiLCJpc215IjpmYWxzZSwiaXNraGFuaCI6ZmFsc2UsInRwZSI6IkFjY2VzcyBUb2tlbiIsImlzcyI6ImF1dGgtc2VydmljZSIsInN1YiI6IjIiLCJleHAiOjE3MzQ4MzU2MDksImlhdCI6MTczNDc0OTIwOX0.Siz4zeFuLL82GzBJ-RmqOoBWYKHJ5ct3Qrwa1Fg1ftwOZRGXY1h9C4nP2zHneS-EVnAkYzmlIDHhJc0ggjABRA"}
+{"level":"debug","time":"2024-12-21T13:47:18+11:00","message":"Username :  nam2184\n"}
+{"level":"info","time":"2024-12-21T13:47:18+11:00","message":"What are you doing attaching this shit bruh"}
+{"level":"debug","time":"2024-12-21T13:47:18+11:00","message":"Limit 10"}
+{"level":"debug","time":"2024-12-21T13:47:18+11:00","message":"Skip 0"}
+SELECT * FROM messages WHERE chat_id = $1 ORDER BY timestamp DESC LIMIT $2 OFFSET $3
+[cors] 2024/12/21 13:48:53 Handler: Preflight request
+[cors] 2024/12/21 13:48:53   Preflight response headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Headers:[authorization] Access-Control-Allow-Methods:[GET] Access-Control-Allow-Origin:[*] Vary:[Origin, Access-Control-Request-Method, Access-Control-Request-Headers]]
+[cors] 2024/12/21 13:48:53 Handler: Preflight request
+[cors] 2024/12/21 13:48:53   Preflight response headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Headers:[authorization] Access-Control-Allow-Methods:[GET] Access-Control-Allow-Origin:[*] Vary:[Origin, Access-Control-Request-Method, Access-Control-Request-Headers]]
+[cors] 2024/12/21 13:48:53 Handler: Actual request
+[cors] 2024/12/21 13:48:53   Actual response added headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Origin:[*] Vary:[Origin]]
+{"level":"info","time":"2024-12-21T13:48:53+11:00","message":"Attaching CORS headers"}
+{"level":"info","time":"2024-12-21T13:48:53+11:00","message":"Attaching control allow credentials"}
+{"level":"debug","time":"2024-12-21T13:48:53+11:00","message":"What are you doing there mate"}
+{"level":"info","time":"2024-12-21T13:48:53+11:00","message":"Checking token eyJhbGciOiJFUzI1NiIsImtpZCI6ImtoYW5obXl3dGZicm93aGF0Y2h1ZG9pbmciLCJ0eXAiOiJKV1QifQ.eyJ1c2VybmFtZSI6Im15bmdvdGF1IiwiaXNteSI6ZmFsc2UsImlza2hhbmgiOmZhbHNlLCJ0cGUiOiJBY2Nlc3MgVG9rZW4iLCJpc3MiOiJhdXRoLXNlcnZpY2UiLCJzdWIiOiIxIiwiZXhwIjoxNzM0ODM0Mjg5LCJpYXQiOjE3MzQ3NDc4ODl9.Q-i6jvt5cTxOT4Kma5gzbY0DrbZNqQFNKSL5lpAQAyVC1Dq_MhJX0mfVCkiKJPPgjlBp1kGoEI5NcozFV9cgxg"}
+{"level":"debug","time":"2024-12-21T13:48:53+11:00","message":"Username :  myngotau\n"}
+{"level":"info","time":"2024-12-21T13:48:53+11:00","message":"What are you doing attaching this shit bruh"}
+{"level":"debug","time":"2024-12-21T13:48:53+11:00","message":"Limit 10"}
+{"level":"debug","time":"2024-12-21T13:48:53+11:00","message":"Skip 0"}
+[cors] 2024/12/21 13:48:53 Handler: Actual request
+[cors] 2024/12/21 13:48:53   Actual response added headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Origin:[*] Vary:[Origin]]
+{"level":"info","time":"2024-12-21T13:48:53+11:00","message":"Attaching CORS headers"}
+{"level":"info","time":"2024-12-21T13:48:53+11:00","message":"Attaching control allow credentials"}
+{"level":"debug","time":"2024-12-21T13:48:53+11:00","message":"What are you doing there mate"}
+{"level":"info","time":"2024-12-21T13:48:53+11:00","message":"Checking token eyJhbGciOiJFUzI1NiIsImtpZCI6ImtoYW5obXl3dGZicm93aGF0Y2h1ZG9pbmciLCJ0eXAiOiJKV1QifQ.eyJ1c2VybmFtZSI6Im5hbTIxODQiLCJpc215IjpmYWxzZSwiaXNraGFuaCI6ZmFsc2UsInRwZSI6IkFjY2VzcyBUb2tlbiIsImlzcyI6ImF1dGgtc2VydmljZSIsInN1YiI6IjIiLCJleHAiOjE3MzQ4MzU2MDksImlhdCI6MTczNDc0OTIwOX0.Siz4zeFuLL82GzBJ-RmqOoBWYKHJ5ct3Qrwa1Fg1ftwOZRGXY1h9C4nP2zHneS-EVnAkYzmlIDHhJc0ggjABRA"}
+SELECT * FROM messages WHERE chat_id = $1 ORDER BY timestamp DESC LIMIT $2 OFFSET $3
+{"level":"debug","time":"2024-12-21T13:48:53+11:00","message":"Username :  nam2184\n"}
+{"level":"info","time":"2024-12-21T13:48:53+11:00","message":"What are you doing attaching this shit bruh"}
+{"level":"debug","time":"2024-12-21T13:48:53+11:00","message":"Limit 10"}
+{"level":"debug","time":"2024-12-21T13:48:53+11:00","message":"Skip 0"}
+SELECT * FROM messages WHERE chat_id = $1 ORDER BY timestamp DESC LIMIT $2 OFFSET $3
+[cors] 2024/12/21 13:48:53 Handler: Actual request
+[cors] 2024/12/21 13:48:53   Actual response added headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Origin:[*] Vary:[Origin]]
+{"level":"info","time":"2024-12-21T13:48:53+11:00","message":"Attaching CORS headers"}
+{"level":"info","time":"2024-12-21T13:48:53+11:00","message":"Attaching control allow credentials"}
+{"level":"debug","time":"2024-12-21T13:48:53+11:00","message":"What are you doing there mate"}
+{"level":"info","time":"2024-12-21T13:48:53+11:00","message":"Checking token eyJhbGciOiJFUzI1NiIsImtpZCI6ImtoYW5obXl3dGZicm93aGF0Y2h1ZG9pbmciLCJ0eXAiOiJKV1QifQ.eyJ1c2VybmFtZSI6Im15bmdvdGF1IiwiaXNteSI6ZmFsc2UsImlza2hhbmgiOmZhbHNlLCJ0cGUiOiJBY2Nlc3MgVG9rZW4iLCJpc3MiOiJhdXRoLXNlcnZpY2UiLCJzdWIiOiIxIiwiZXhwIjoxNzM0ODM0Mjg5LCJpYXQiOjE3MzQ3NDc4ODl9.Q-i6jvt5cTxOT4Kma5gzbY0DrbZNqQFNKSL5lpAQAyVC1Dq_MhJX0mfVCkiKJPPgjlBp1kGoEI5NcozFV9cgxg"}
+{"level":"debug","time":"2024-12-21T13:48:53+11:00","message":"Username :  myngotau\n"}
+{"level":"info","time":"2024-12-21T13:48:53+11:00","message":"What are you doing attaching this shit bruh"}
+{"level":"debug","time":"2024-12-21T13:48:53+11:00","message":"Limit 10"}
+{"level":"debug","time":"2024-12-21T13:48:53+11:00","message":"Skip 0"}
+SELECT * FROM messages WHERE chat_id = $1 ORDER BY timestamp DESC LIMIT $2 OFFSET $3
+[cors] 2024/12/21 13:48:58 Handler: Actual request
+[cors] 2024/12/21 13:48:58   Actual response added headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Origin:[*] Vary:[Origin]]
+{"level":"info","time":"2024-12-21T13:48:58+11:00","message":"Attaching CORS headers"}
+{"level":"info","time":"2024-12-21T13:48:58+11:00","message":"Attaching control allow credentials"}
+{"level":"debug","time":"2024-12-21T13:48:58+11:00","message":"What are you doing there mate"}
+{"level":"info","time":"2024-12-21T13:48:58+11:00","message":"Checking token eyJhbGciOiJFUzI1NiIsImtpZCI6ImtoYW5obXl3dGZicm93aGF0Y2h1ZG9pbmciLCJ0eXAiOiJKV1QifQ.eyJ1c2VybmFtZSI6Im5hbTIxODQiLCJpc215IjpmYWxzZSwiaXNraGFuaCI6ZmFsc2UsInRwZSI6IkFjY2VzcyBUb2tlbiIsImlzcyI6ImF1dGgtc2VydmljZSIsInN1YiI6IjIiLCJleHAiOjE3MzQ4MzU2MDksImlhdCI6MTczNDc0OTIwOX0.Siz4zeFuLL82GzBJ-RmqOoBWYKHJ5ct3Qrwa1Fg1ftwOZRGXY1h9C4nP2zHneS-EVnAkYzmlIDHhJc0ggjABRA"}
+{"level":"debug","time":"2024-12-21T13:48:58+11:00","message":"Username :  nam2184\n"}
+{"level":"info","time":"2024-12-21T13:48:58+11:00","message":"What are you doing attaching this shit bruh"}
+{"level":"debug","time":"2024-12-21T13:48:58+11:00","message":"Limit 10"}
+{"level":"debug","time":"2024-12-21T13:48:58+11:00","message":"Skip 0"}
+SELECT * FROM messages WHERE chat_id = $1 ORDER BY timestamp DESC LIMIT $2 OFFSET $3
+[cors] 2024/12/21 13:49:00 Handler: Preflight request
+[cors] 2024/12/21 13:49:00   Preflight response headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Headers:[authorization] Access-Control-Allow-Methods:[GET] Access-Control-Allow-Origin:[*] Vary:[Origin, Access-Control-Request-Method, Access-Control-Request-Headers]]
+[cors] 2024/12/21 13:49:00 Handler: Actual request
+[cors] 2024/12/21 13:49:00   Actual response added headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Origin:[*] Vary:[Origin]]
+{"level":"info","time":"2024-12-21T13:49:00+11:00","message":"Attaching CORS headers"}
+{"level":"info","time":"2024-12-21T13:49:00+11:00","message":"Attaching control allow credentials"}
+{"level":"debug","time":"2024-12-21T13:49:00+11:00","message":"What are you doing there mate"}
+{"level":"info","time":"2024-12-21T13:49:00+11:00","message":"Checking token eyJhbGciOiJFUzI1NiIsImtpZCI6ImtoYW5obXl3dGZicm93aGF0Y2h1ZG9pbmciLCJ0eXAiOiJKV1QifQ.eyJ1c2VybmFtZSI6Im5hbTIxODQiLCJpc215IjpmYWxzZSwiaXNraGFuaCI6ZmFsc2UsInRwZSI6IkFjY2VzcyBUb2tlbiIsImlzcyI6ImF1dGgtc2VydmljZSIsInN1YiI6IjIiLCJleHAiOjE3MzQ4MzU2MDksImlhdCI6MTczNDc0OTIwOX0.Siz4zeFuLL82GzBJ-RmqOoBWYKHJ5ct3Qrwa1Fg1ftwOZRGXY1h9C4nP2zHneS-EVnAkYzmlIDHhJc0ggjABRA"}
+{"level":"debug","time":"2024-12-21T13:49:00+11:00","message":"Username :  nam2184\n"}
+{"level":"info","time":"2024-12-21T13:49:00+11:00","message":"What are you doing attaching this shit bruh"}
+{"level":"debug","time":"2024-12-21T13:49:00+11:00","message":"Limit 10"}
+{"level":"debug","time":"2024-12-21T13:49:00+11:00","message":"Skip 0"}
+SELECT * FROM messages WHERE chat_id = $1 ORDER BY timestamp DESC LIMIT $2 OFFSET $3
+[cors] 2024/12/21 13:49:01 Handler: Actual request
+[cors] 2024/12/21 13:49:01   Actual response added headers: map[Access-Control-Allow-Credentials:[true] Access-Control-Allow-Origin:[*] Vary:[Origin]]
+{"level":"info","time":"2024-12-21T13:49:01+11:00","message":"Attaching CORS headers"}
+{"level":"info","time":"2024-12-21T13:49:01+11:00","message":"Attaching control allow credentials"}
+{"level":"debug","time":"2024-12-21T13:49:01+11:00","message":"What are you doing there mate"}
+{"level":"info","time":"2024-12-21T13:49:01+11:00","message":"Checking token eyJhbGciOiJFUzI1NiIsImtpZCI6ImtoYW5obXl3dGZicm93aGF0Y2h1ZG9pbmciLCJ0eXAiOiJKV1QifQ.eyJ1c2VybmFtZSI6Im5hbTIxODQiLCJpc215IjpmYWxzZSwiaXNraGFuaCI6ZmFsc2UsInRwZSI6IkFjY2VzcyBUb2tlbiIsImlzcyI6ImF1dGgtc2VydmljZSIsInN1YiI6IjIiLCJleHAiOjE3MzQ4MzU2MDksImlhdCI6MTczNDc0OTIwOX0.Siz4zeFuLL82GzBJ-RmqOoBWYKHJ5ct3Qrwa1Fg1ftwOZRGXY1h9C4nP2zHneS-EVnAkYzmlIDHhJc0ggjABRA"}
+{"level":"debug","time":"2024-12-21T13:49:01+11:00","message":"Username :  nam2184\n"}
+{"level":"info","time":"2024-12-21T13:49:01+11:00","message":"What are you doing attaching this shit bruh"}
+{"level":"debug","time":"2024-12-21T13:49:01+11:00","message":"Limit 10"}
+{"level":"debug","time":"2024-12-21T13:49:01+11:00","message":"Skip 0"}
+SELECT * FROM messages WHERE chat_id = $1 ORDER BY timestamp DESC LIMIT $2 OFFSET $3
