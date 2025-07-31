@@ -1,4 +1,4 @@
-# WebSocket Chat API Backend (Learning Project)
+# WebSocket Chat API Backend 
 
 This is a **learning project** designed to explore and demonstrate a basic chat backend written in Go. It provides WebSocket support for real-time communication, JWT-based authentication, and minimal persistence. Most of the code is **placeholder** or **boilerplate** and is not production-ready unless you properly configure it, particularly for secret management using **HashiCorp Vault**.
 
@@ -10,7 +10,8 @@ This is a **learning project** designed to explore and demonstrate a basic chat 
 * JWT-based authentication
 * Token generation with custom claims (Access & Refresh tokens)
 * Integration-ready with HashiCorp Vault for secure key management
-* Basic separation of concerns between services, handlers, and routes
+* Separation of concerns between services, handlers, and routes
+* OpenAPI 3.0 schema generation code gen purposes  
 
 ---
 

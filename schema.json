@@ -311,6 +311,27 @@
           }
         },
         "type": "object"
+      },
+      "PostSignUpResponse": {
+        "properties": {
+          "email": {
+            "type": "string"
+          },
+          "first_name": {
+            "type": "string"
+          },
+          "id": {
+            "format": "int64",
+            "type": "integer"
+          },
+          "surname": {
+            "type": "string"
+          },
+          "username": {
+            "type": "string"
+          }
+        },
+        "type": "object"
       }
     }
   },
@@ -342,7 +363,7 @@
                 }
               }
             },
-            "description": "Authentication success"
+            "description": "Failure"
           },
           "default": {
             "description": ""
@@ -373,13 +394,44 @@
                 }
               }
             },
-            "description": "Refresh Authentication success"
+            "description": "Failure"
           },
           "default": {
             "description": ""
           }
         },
         "summary": "Refresh access token"
+      }
+    },
+    "/auth/signup": {
+      "post": {
+        "operationId": "PostAuthSignUp",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/PostSignUpResponse"
+                }
+              }
+            },
+            "description": "Create account success"
+          },
+          "400": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            },
+            "description": "Failure"
+          },
+          "default": {
+            "description": ""
+          }
+        },
+        "summary": "Create new account"
       }
     },
     "/chats": {
@@ -404,7 +456,7 @@
                 }
               }
             },
-            "description": "Chats retrieved"
+            "description": "Failure"
           },
           "default": {
             "description": ""
@@ -459,7 +511,7 @@
                 }
               }
             },
-            "description": "Encrypted Messages retrieved"
+            "description": "Failure"
           },
           "default": {
             "description": ""
@@ -514,7 +566,7 @@
                 }
               }
             },
-            "description": "Messages retrieved"
+            "description": "Failure"
           },
           "default": {
             "description": ""
@@ -569,7 +621,7 @@
                 }
               }
             },
-            "description": "Count retrieved"
+            "description": "Failure"
           },
           "default": {
             "description": ""
@@ -600,7 +652,7 @@
                 }
               }
             },
-            "description": "User retrieved"
+            "description": "Failure"
           },
           "default": {
             "description": ""
@@ -613,7 +665,7 @@
   "servers": [
     {
       "description": " Server",
-      "url": "https://khanhmychattypi.win/api/v1"
+      "url": "https://hello.example.com"
     },
     {
       "description": "Local Test Server",
