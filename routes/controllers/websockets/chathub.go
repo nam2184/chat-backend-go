@@ -6,8 +6,8 @@ import (
 
 	"github.com/gorilla/websocket"
 	"github.com/jmoiron/sqlx"
-	"github.com/nam2184/mymy/models/body"
 	qm "github.com/nam2184/mymy/models/db"
+	"github.com/nam2184/mymy/models/request"
 	"github.com/nam2184/mymy/routes/controllers/options"
 	"github.com/nam2184/mymy/services/he"
 	"github.com/nam2184/mymy/util"
@@ -154,7 +154,7 @@ func (client *Client) readMessages(hub *ChatHub, opts *options.HandlerOptions, u
 	}()
 
 	for {
-		var temp body.TempMessage
+		var temp request.WSMessage
 		var message qm.Message
 		// Read a message from the WebSocket
 		if err := client.conn.ReadJSON(&temp); err != nil {
@@ -167,7 +167,7 @@ func (client *Client) readMessages(hub *ChatHub, opts *options.HandlerOptions, u
 			return // Exit loop if error occurs (client disconnects or other errors)
 		}
 
-		message, err := qm.ConvertToMessageDB(temp)
+		message, err := temp.ConvertToMessageDB()
 		if err != nil {
 			opts.Log.Info().Msgf("Message Content conversion error: %v", err)
 			continue
@@ -202,7 +202,7 @@ func (client *Client) readEncryptedMessages(hub *ChatHub, opts *options.HandlerO
 	}()
 
 	for {
-		var temp body.TempMessage
+		var temp request.WSEncryptedMessage
 		var message qm.EncryptedMessage
 		// Read a message from the WebSocket
 		if err := client.conn.ReadJSON(&temp); err != nil {
@@ -215,7 +215,7 @@ func (client *Client) readEncryptedMessages(hub *ChatHub, opts *options.HandlerO
 			return // Exit loop if error occurs (client disconnects or other errors)
 		}
 
-		message, err := qm.ConvertToEncryptedMessageDB(temp)
+		message, err := temp.ConvertToEncryptedMessageDB()
 		if err != nil {
 			opts.Log.Info().Msgf("Message Content conversion error: %v", err)
 			continue

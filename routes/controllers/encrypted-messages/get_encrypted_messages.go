@@ -9,7 +9,6 @@ import (
 	"github.com/jmoiron/sqlx"
 	queries "github.com/nam2184/generic-queries"
 	"github.com/nam2184/mymy/middleware"
-	"github.com/nam2184/mymy/models/body"
 	qm "github.com/nam2184/mymy/models/db"
 	"github.com/nam2184/mymy/models/response"
 	"github.com/nam2184/mymy/routes/controllers/options"
@@ -66,7 +65,7 @@ func GetEncryptedMessages(w http.ResponseWriter, r *http.Request, db *sqlx.DB, o
 	var json_res []byte
 
 	metadata := response.NewMeta()
-	var preprocessedArray []body.TempMessage
+	var preprocessedArray []response.GetEncryptedMessages
 	for _, message := range q.Rows {
 		result := encodeBase64(message)
 		preprocessedArray = append(preprocessedArray, result)
@@ -96,21 +95,22 @@ func getIDFromPath(r *http.Request) (uint, error) {
 	return chatID, nil
 }
 
-func encodeBase64(message qm.EncryptedMessage) body.TempMessage {
-	var temp body.TempMessage
+func encodeBase64(message qm.EncryptedMessage) response.GetEncryptedMessages {
+	var resp response.GetEncryptedMessages
 
-	temp.ID = message.ID
-	temp.ChatID = message.ChatID
-	temp.SenderID = message.SenderID
-	temp.SenderName = message.SenderName
-	temp.ReceiverID = message.ReceiverID
-	temp.Type = message.Type
-	temp.IsTyping = message.IsTyping
-	temp.Timestamp = message.Timestamp
-	temp.Content = message.Content
+	resp.ID = message.ID
+	resp.ChatID = message.ChatID
+	resp.SenderID = message.SenderID
+	resp.SenderName = message.SenderName
+	resp.ReceiverID = message.ReceiverID
+	resp.Content = message.Content
+	resp.Type = message.Type
+	resp.IsTyping = message.IsTyping
+	resp.Timestamp = message.Timestamp
 
 	if message.Image != nil {
-		temp.Image = "data:image/png;base64," + base64.StdEncoding.EncodeToString(message.Image)
+		resp.Image = "data:image/png;base64," + base64.StdEncoding.EncodeToString(message.Image)
 	}
-	return temp
+
+	return resp
 }

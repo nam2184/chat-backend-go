@@ -42,6 +42,7 @@ func CreateNormalRouter(prefix string, router *mux.Router, opts *middleware.Midd
 	)
 
 	initRouter.Path("/auth").Methods(http.MethodPost).HandlerFunc(h.PostAuthenticated)
+	initRouter.Path("/auth/signup").Methods(http.MethodPost).HandlerFunc(h.PostAuthenticated)
 
 	normalRouter := router.PathPrefix(prefix).Subrouter()
 	normalRouter.Use(mux.MiddlewareFunc(middleware.AttachingHeaders(*opts)),
@@ -53,6 +54,7 @@ func CreateNormalRouter(prefix string, router *mux.Router, opts *middleware.Midd
 	normalRouter.Path("/chats").Methods(http.MethodGet).HandlerFunc(h.GetChats)
 	normalRouter.Path("/auth/refresh").Methods(http.MethodGet).HandlerFunc(h.GetRefreshToken)
 	normalRouter.Path("/messages/{chatID}").Methods(http.MethodGet).HandlerFunc(h.GetMessages)
+	normalRouter.Path("/encrypted-messages/{chatID}").Methods(http.MethodGet).HandlerFunc(h.GetMessages)
 	normalRouter.Path("/messages/{chatID}/count").Methods(http.MethodGet).HandlerFunc(h.GetMessagesCount)
 
 	wsRouter := router.PathPrefix(prefix).Subrouter()

@@ -17,15 +17,6 @@ import (
 	"github.com/nam2184/mymy/routes/controllers/util"
 )
 
-type ChatInfo struct {
-	Chats []qm.Chat `json:"chats"`
-	Users []qm.User `json:"users"`
-}
-
-func newChatInfo(chats []qm.Chat, users []qm.User) ChatInfo {
-	return ChatInfo{Chats: chats, Users: users}
-}
-
 func GetChats(w http.ResponseWriter, r *http.Request, db *sqlx.DB, opts *options.HandlerOptions) {
 	ctx := r.Context()
 
@@ -76,11 +67,15 @@ func GetChats(w http.ResponseWriter, r *http.Request, db *sqlx.DB, opts *options
 		return
 	}
 
-	info := newChatInfo(q.Rows, users)
+	chatResponse := response.GetChats{
+		Chats: q.Rows,
+		Users: users,
+	}
+
 	metadata := response.NewMeta()
 	metadata.WithTotal(q.Total)
 
-	resp := response.StandardSuccessResponse(*metadata, info)
+	resp := response.StandardSuccessResponse(*metadata, chatResponse)
 	json_res, err := json.Marshal(resp)
 	if err != nil {
 		opts.Problem.HandleError(middleware.NewError(w, r, err))

@@ -84,8 +84,13 @@ func GetRefreshToken(w http.ResponseWriter, r *http.Request, db *sqlx.DB, opts *
 		opts.Problem.HandleError(middleware.NewError(w, r, err))
 		return
 	}
+	resp := response.GetRefreshAuthResponse{
+		AccessToken:  accessTokenString,
+		RefreshToken: refreshTokenString,
+		Expiry:       accessClaims.ExpiresAt.Time,
+		User:         util.GetZero[qm.User](),
+	}
 
-	resp := response.NewAuthResponse(accessTokenString, refreshTokenString, accessClaims.ExpiresAt.Time, util.GetZero[qm.User]())
 	jsonResp, err := json.Marshal(resp)
 	if err != nil {
 		opts.Problem.HandleError(middleware.NewError(w, r, err))

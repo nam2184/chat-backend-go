@@ -1,12 +1,7 @@
 package db
 
 import (
-	"encoding/base64"
-	"fmt"
-	"strings"
 	"time"
-
-	"github.com/nam2184/mymy/models/body"
 )
 
 const EncryptedMessageTableName = "encrypted_messages"
@@ -31,33 +26,4 @@ func (m EncryptedMessage) TableName() string {
 
 func (m EncryptedMessage) Id() interface{} {
 	return m.ID
-}
-
-func ConvertToEncryptedMessageDB(temp body.TempMessage) (EncryptedMessage, error) {
-	var message EncryptedMessage
-	if temp.Image != " " {
-		base64Image := temp.Image
-
-		if strings.HasPrefix(base64Image, "data:") {
-			commaIndex := strings.Index(base64Image, ",")
-			if commaIndex != -1 {
-				base64Image = base64Image[commaIndex+1:] // Strip prefix
-			}
-		}
-		image, err := base64.StdEncoding.DecodeString(base64Image)
-		if err != nil {
-			return EncryptedMessage{}, fmt.Errorf("base64 decode failed: %w", err)
-		}
-		message.Image = image
-	}
-	message.ID = temp.ID
-	message.ChatID = temp.ChatID
-	message.SenderID = temp.SenderID
-	message.SenderName = temp.SenderName
-	message.ReceiverID = temp.ReceiverID
-	message.Type = temp.Type
-	message.IsTyping = temp.IsTyping
-	message.Timestamp = temp.Timestamp
-	message.Content = temp.Content
-	return message, nil
 }

@@ -1,12 +1,7 @@
 package db
 
 import (
-	"encoding/base64"
-	"fmt"
-	"strings"
 	"time"
-
-	"github.com/nam2184/mymy/models/body"
 )
 
 const MessageTableName = "messages"
@@ -31,37 +26,4 @@ func (m Message) TableName() string {
 
 func (m Message) Id() interface{} {
 	return m.ID
-}
-
-func ConvertToMessageDB(temp body.TempMessage) (Message, error) {
-	var message Message
-	if temp.Image != " " {
-		base64Data := temp.Image
-
-		if strings.HasPrefix(base64Data, "data:") {
-			commaIndex := strings.Index(base64Data, ",")
-			if commaIndex != -1 {
-				base64Data = base64Data[commaIndex+1:] // Strip prefix
-			}
-		}
-		image, err := base64.StdEncoding.DecodeString(base64Data)
-		if err != nil {
-			return Message{}, fmt.Errorf("base64 decode failed: %w", err)
-		}
-		if err != nil {
-			return Message{}, err
-		}
-		message.Image = image
-	}
-	message.ID = temp.ID
-	message.ChatID = temp.ChatID
-	message.SenderID = temp.SenderID
-	message.SenderName = temp.SenderName
-	message.ReceiverID = temp.ReceiverID
-	message.Content = temp.Content
-	message.Type = temp.Type
-	message.IsTyping = temp.IsTyping
-	message.Timestamp = temp.Timestamp
-
-	return message, nil
 }
